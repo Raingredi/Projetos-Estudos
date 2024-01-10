@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        caption{
+            font-weight: bold;
+            padding: 20px;
+            font-size: 1.5em;
+        }
+        td,th,caption{
+            border: 2px solid black;
+            text-align: center;
+            padding: 10x;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Names</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="
+                rowgroup">Mulheres</th>
+                <td>Ana</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+            <tr>
+                <td>Bia</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+            <tr>
+                <td>Cláudia</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+            <tr>
+                <td>Fabiano</td>
+                <td>F1</td>
+                <td>F2</td>
+                <td>F3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
