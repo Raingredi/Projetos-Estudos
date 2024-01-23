@@ -45,3 +45,19 @@ section#login>div#forms{
     padding: 10px;
     display: block;
 }
+
+section#login h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section#login p{
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+div.campo{
+    padding: 10px;
+    text-align: center;
+}
